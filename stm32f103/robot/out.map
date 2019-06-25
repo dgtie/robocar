@@ -1,0 +1,869 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+                              system/_sbrk.o (__errno)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               system/_syscalls.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 system/_cxx.o
+ .data          0x00000000        0x0 system/_cxx.o
+ .bss           0x00000000        0x0 system/_cxx.o
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00000000        0x6 system/_cxx.o
+ .text.__cxa_pure_virtual
+                0x00000000        0x6 system/_cxx.o
+ .comment       0x00000000       0x2c system/_cxx.o
+ .ARM.attributes
+                0x00000000       0x33 system/_cxx.o
+ .text          0x00000000        0x0 system/trace_impl.o
+ .data          0x00000000        0x0 system/trace_impl.o
+ .bss           0x00000000        0x0 system/trace_impl.o
+ .comment       0x00000000       0x2c system/trace_impl.o
+ .ARM.attributes
+                0x00000000       0x33 system/trace_impl.o
+ .text          0x00000000        0x0 system/assert.o
+ .data          0x00000000        0x0 system/assert.o
+ .bss           0x00000000        0x0 system/assert.o
+ .text.__assert_func
+                0x00000000        0x6 system/assert.o
+ .comment       0x00000000       0x2c system/assert.o
+ .ARM.attributes
+                0x00000000       0x33 system/assert.o
+ .text          0x00000000        0x0 system/exception_handlers.o
+ .data          0x00000000        0x0 system/exception_handlers.o
+ .bss           0x00000000        0x0 system/exception_handlers.o
+ .text          0x00000000        0x0 system/Trace.o
+ .data          0x00000000        0x0 system/Trace.o
+ .bss           0x00000000        0x0 system/Trace.o
+ .comment       0x00000000       0x2c system/Trace.o
+ .ARM.attributes
+                0x00000000       0x33 system/Trace.o
+ .text          0x00000000        0x0 system/system_stm32f10x.o
+ .data          0x00000000        0x0 system/system_stm32f10x.o
+ .bss           0x00000000        0x0 system/system_stm32f10x.o
+ .text          0x00000000        0x0 system/_startup.o
+ .data          0x00000000        0x0 system/_startup.o
+ .bss           0x00000000        0x0 system/_startup.o
+ .text.__initialize_data
+                0x00000000       0x10 system/_startup.o
+ .text.__initialize_bss
+                0x00000000        0xe system/_startup.o
+ .text.__run_init_array
+                0x00000000       0x48 system/_startup.o
+ .text.__run_fini_array
+                0x00000000       0x24 system/_startup.o
+ .text          0x00000000        0x0 system/_sbrk.o
+ .data          0x00000000        0x0 system/_sbrk.o
+ .bss           0x00000000        0x0 system/_sbrk.o
+ .text._sbrk    0x00000000       0x40 system/_sbrk.o
+ .bss.current_heap_end.3973
+                0x00000000        0x4 system/_sbrk.o
+ .comment       0x00000000       0x2c system/_sbrk.o
+ .ARM.attributes
+                0x00000000       0x33 system/_sbrk.o
+ .text          0x00000000        0x0 system/_initialize_hardware.o
+ .data          0x00000000        0x0 system/_initialize_hardware.o
+ .bss           0x00000000        0x0 system/_initialize_hardware.o
+ .text          0x00000000        0x0 system/_syscalls.o
+ .data          0x00000000        0x0 system/_syscalls.o
+ .bss           0x00000000        0x0 system/_syscalls.o
+ .text.raise    0x00000000       0x10 system/_syscalls.o
+ .text.kill     0x00000000       0x10 system/_syscalls.o
+ .bss.__dso_handle
+                0x00000000        0x4 system/_syscalls.o
+ COMMON         0x00000000        0x4 system/_syscalls.o
+ .text          0x00000000        0x0 system/vectors_stm32f10x.o
+ .data          0x00000000        0x0 system/vectors_stm32f10x.o
+ .bss           0x00000000        0x0 system/vectors_stm32f10x.o
+ .text          0x00000000        0x0 system/_exit.o
+ .data          0x00000000        0x0 system/_exit.o
+ .bss           0x00000000        0x0 system/_exit.o
+ .text.abort    0x00000000        0x8 system/_exit.o
+ .text          0x00000000        0x0 system/_reset_hardware.o
+ .data          0x00000000        0x0 system/_reset_hardware.o
+ .bss           0x00000000        0x0 system/_reset_hardware.o
+ .text          0x00000000        0x0 lamos/queue.o
+ .data          0x00000000        0x0 lamos/queue.o
+ .bss           0x00000000        0x0 lamos/queue.o
+ .text._ZN6Queuer6isFreeEv
+                0x00000000        0xa lamos/queue.o
+ .text._ZN5Queue9getLengthEv
+                0x00000000        0x4 lamos/queue.o
+ .text._ZN5Queue3getEi
+                0x00000000       0x16 lamos/queue.o
+ .text._ZN5Queue6removeEi
+                0x00000000       0x30 lamos/queue.o
+ .text._ZN5Queue6removeER6Queuer
+                0x00000000       0x2c lamos/queue.o
+ .text._ZN5Queue8getIndexER6Queuer
+                0x00000000       0x1c lamos/queue.o
+ .text          0x00000000        0x0 lamos/kernel.o
+ .data          0x00000000        0x0 lamos/kernel.o
+ .bss           0x00000000        0x0 lamos/kernel.o
+ .text._ZN7Service6appendEPFvRS_E
+                0x00000000       0x10 lamos/kernel.o
+ .text._ZN7Service3setEPFvRS_E
+                0x00000000        0x4 lamos/kernel.o
+ .text._ZN7Service7syscallEPFvRS_E
+                0x00000000        0xc lamos/kernel.o
+ .text          0x00000000        0x0 lamos/timer.o
+ .data          0x00000000        0x0 lamos/timer.o
+ .bss           0x00000000        0x0 lamos/timer.o
+ .text._ZN5Timer7getTickEv
+                0x00000000        0xc lamos/timer.o
+ .text          0x00000000        0x0 wheel.o
+ .data          0x00000000        0x0 wheel.o
+ .bss           0x00000000        0x0 wheel.o
+ .text._Z5wheelR12wheel_struct
+                0x00000000        0x8 wheel.o
+ .text          0x00000000        0x0 usart1.o
+ .data          0x00000000        0x0 usart1.o
+ .bss           0x00000000        0x0 usart1.o
+ .text._Z14usart1_receivec
+                0x00000000        0xc usart1.o
+ .text._Z18usart1_printStringPKc
+                0x00000000       0x38 usart1.o
+ .text          0x00000000        0x0 pid.o
+ .data          0x00000000        0x0 pid.o
+ .bss           0x00000000        0x0 pid.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 led.o
+ .data          0x00000000        0x0 led.o
+ .bss           0x00000000        0x0 led.o
+ .text._Z7led_offv
+                0x00000000       0x10 led.o
+ .text          0x00000000        0x0 _i2cm.o
+ .data          0x00000000        0x0 _i2cm.o
+ .bss           0x00000000        0x0 _i2cm.o
+ .text._Z9i2cm_readcciPcPFvvE
+                0x00000000       0x28 _i2cm.o
+ .text._ZN4user8i2cmReadEcciPc
+                0x00000000       0x28 _i2cm.o
+ .text          0x00000000        0xc /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .debug_info    0x00000000      0x73c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .debug_abbrev  0x00000000      0x134 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .debug_line    0x00000000      0x101 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .debug_str     0x00000000      0x4e3 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .comment       0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2d /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .data          0x00000000       0x64 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x2 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .debug_info    0x00000000      0x7da /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x00000000      0x136 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000       0x18 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x00000000       0xe6 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .debug_str     0x00000000      0x53a /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .comment       0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2d /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00005000         xrw
+CCMRAM           0x00000000         0x00000000         xrw
+FLASH            0x08000000         0x00010000         xr
+FLASHB1          0x00000000         0x00000000         xr
+EXTMEMB0         0x00000000         0x00000000         xr
+EXTMEMB1         0x00000000         0x00000000         xr
+EXTMEMB2         0x00000000         0x00000000         xr
+EXTMEMB3         0x00000000         0x00000000         xr
+MEMORY_ARRAY     0x00000000         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD system/_cxx.o
+LOAD system/trace_impl.o
+LOAD system/assert.o
+LOAD system/exception_handlers.o
+LOAD system/Trace.o
+LOAD system/system_stm32f10x.o
+LOAD system/_startup.o
+LOAD system/_sbrk.o
+LOAD system/_initialize_hardware.o
+LOAD system/_syscalls.o
+LOAD system/vectors_stm32f10x.o
+LOAD system/_exit.o
+LOAD system/_reset_hardware.o
+LOAD lamos/queue.o
+LOAD lamos/kernel.o
+LOAD lamos/timer.o
+LOAD wheel.o
+LOAD usart1.o
+LOAD pid.o
+LOAD main.o
+LOAD led.o
+LOAD _i2cm.o
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libstdc++_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7-m/libc_nano.a
+END GROUP
+                0x20005000                __stack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20005000                _estack = __stack
+                0x00000400                __Main_Stack_Size = 0x400
+                [!provide]                PROVIDE (_Main_Stack_Size, __Main_Stack_Size)
+                0x20004c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
+                [!provide]                PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x2000011c                PROVIDE (_Heap_Begin, _end_noinit)
+                0x20004c00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
+
+.isr_vector     0x08000000      0x236
+ FILL mask 0xff
+                0x08000000                __vectors_start = ABSOLUTE (.)
+                0x08000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c system/vectors_stm32f10x.o
+                0x08000000                __isr_vectors
+ *(.cfmconfig)
+ *(.after_vectors .after_vectors.*)
+ .after_vectors
+                0x0800010c       0x64 system/exception_handlers.o
+                0x0800010c                Reset_Handler
+                0x08000110                NMI_Handler
+                0x08000112                HardFault_Handler
+                0x08000126                HardFault_Handler_C
+                0x08000128                MemManage_Handler
+                0x0800012a                BusFault_Handler
+                0x0800013e                BusFault_Handler_C
+                0x08000140                UsageFault_Handler
+                0x08000154                UsageFault_Handler_C
+                0x08000158                DebugMon_Handler
+ .after_vectors
+                0x08000170       0xc4 system/_startup.o
+                0x08000170                _start
+ .after_vectors
+                0x08000234        0x2 system/vectors_stm32f10x.o
+                0x08000234                EXTI2_IRQHandler
+                0x08000234                TIM8_TRG_COM_IRQHandler
+                0x08000234                TIM8_CC_IRQHandler
+                0x08000234                TIM1_CC_IRQHandler
+                0x08000234                TIM6_IRQHandler
+                0x08000234                PVD_IRQHandler
+                0x08000234                SDIO_IRQHandler
+                0x08000234                CAN2_RX1_IRQHandler
+                0x08000234                EXTI3_IRQHandler
+                0x08000234                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000234                TIM1_UP_TIM10_IRQHandler
+                0x08000234                TIM8_UP_TIM13_IRQHandler
+                0x08000234                EXTI0_IRQHandler
+                0x08000234                CAN1_RX0_IRQHandler
+                0x08000234                TIM1_UP_TIM16_IRQHandler
+                0x08000234                CAN2_SCE_IRQHandler
+                0x08000234                ADC1_2_IRQHandler
+                0x08000234                SPI1_IRQHandler
+                0x08000234                TAMPER_IRQHandler
+                0x08000234                TIM6_DAC_IRQHandler
+                0x08000234                TIM1_BRK_TIM9_IRQHandler
+                0x08000234                CAN2_RX0_IRQHandler
+                0x08000234                TIM8_UP_IRQHandler
+                0x08000234                DMA2_Channel2_IRQHandler
+                0x08000234                DMA1_Channel4_IRQHandler
+                0x08000234                USART3_IRQHandler
+                0x08000234                RTC_IRQHandler
+                0x08000234                DMA1_Channel7_IRQHandler
+                0x08000234                CAN1_RX1_IRQHandler
+                0x08000234                UART5_IRQHandler
+                0x08000234                ADC3_IRQHandler
+                0x08000234                TIM4_IRQHandler
+                0x08000234                DMA2_Channel1_IRQHandler
+                0x08000234                I2C1_EV_IRQHandler
+                0x08000234                DMA1_Channel6_IRQHandler
+                0x08000234                UART4_IRQHandler
+                0x08000234                DMA2_Channel4_IRQHandler
+                0x08000234                RCC_IRQHandler
+                0x08000234                TIM8_BRK_TIM12_IRQHandler
+                0x08000234                TIM1_TRG_COM_IRQHandler
+                0x08000234                DMA1_Channel1_IRQHandler
+                0x08000234                Default_Handler
+                0x08000234                CEC_IRQHandler
+                0x08000234                EXTI15_10_IRQHandler
+                0x08000234                TIM14_IRQHandler
+                0x08000234                TIM13_IRQHandler
+                0x08000234                TIM12_IRQHandler
+                0x08000234                TIM7_IRQHandler
+                0x08000234                CAN2_TX_IRQHandler
+                0x08000234                TIM5_IRQHandler
+                0x08000234                EXTI9_5_IRQHandler
+                0x08000234                ETH_WKUP_IRQHandler
+                0x08000234                CAN1_TX_IRQHandler
+                0x08000234                DMA2_Channel5_IRQHandler
+                0x08000234                DMA1_Channel5_IRQHandler
+                0x08000234                EXTI4_IRQHandler
+                0x08000234                USB_LP_CAN1_RX0_IRQHandler
+                0x08000234                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000234                USB_HP_CAN1_TX_IRQHandler
+                0x08000234                DMA1_Channel3_IRQHandler
+                0x08000234                FSMC_IRQHandler
+                0x08000234                ETH_IRQHandler
+                0x08000234                TIM1_UP_IRQHandler
+                0x08000234                WWDG_IRQHandler
+                0x08000234                TIM2_IRQHandler
+                0x08000234                OTG_FS_WKUP_IRQHandler
+                0x08000234                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000234                TIM1_BRK_IRQHandler
+                0x08000234                EXTI1_IRQHandler
+                0x08000234                RTCAlarm_IRQHandler
+                0x08000234                DMA2_Channel4_5_IRQHandler
+                0x08000234                USART2_IRQHandler
+                0x08000234                DMA1_Channel2_IRQHandler
+                0x08000234                TIM8_BRK_IRQHandler
+                0x08000234                CAN1_SCE_IRQHandler
+                0x08000234                FLASH_IRQHandler
+                0x08000234                OTG_FS_IRQHandler
+                0x08000234                SPI3_IRQHandler
+                0x08000234                I2C1_ER_IRQHandler
+                0x08000234                USBWakeUp_IRQHandler
+                0x08000234                DMA2_Channel3_IRQHandler
+                0x08000234                TIM1_BRK_TIM15_IRQHandler
+
+.inits          0x08000238       0x44
+                0x08000238                __data_regions_array_start = .
+                0x08000238        0x4 LONG 0x80010ac LOADADDR (.data)
+                0x0800023c        0x4 LONG 0x20000000 ADDR (.data)
+                0x08000240        0x4 LONG 0x20000028 (ADDR (.data) + SIZEOF (.data))
+                0x08000244        0x4 LONG 0x80010ac LOADADDR (.data_CCMRAM)
+                0x08000248        0x4 LONG 0x0 ADDR (.data_CCMRAM)
+                0x0800024c        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
+                0x08000250                __data_regions_array_end = .
+                0x08000250                __bss_regions_array_start = .
+                0x08000250        0x4 LONG 0x20000028 ADDR (.bss)
+                0x08000254        0x4 LONG 0x2000011c (ADDR (.bss) + SIZEOF (.bss))
+                0x08000258        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
+                0x0800025c        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
+                0x08000260                __bss_regions_array_end = .
+ *(.init)
+ *(.fini)
+                0x08000260                . = ALIGN (0x4)
+                0x08000260                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array_sysinit .preinit_array_sysinit.*)
+ *(.preinit_array_platform .preinit_array_platform.*)
+ *(.preinit_array .preinit_array.*)
+                0x08000260                PROVIDE (__preinit_array_end, .)
+                0x08000260                . = ALIGN (0x4)
+                0x08000260                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x08000260        0x4 lamos/kernel.o
+ .init_array    0x08000264        0x4 lamos/timer.o
+ .init_array    0x08000268        0x4 wheel.o
+ .init_array    0x0800026c        0x4 usart1.o
+ .init_array    0x08000270        0x4 pid.o
+ .init_array    0x08000274        0x4 led.o
+ .init_array    0x08000278        0x4 _i2cm.o
+                0x0800027c                PROVIDE (__init_array_end, .)
+                0x0800027c                . = ALIGN (0x4)
+                0x0800027c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x0800027c                PROVIDE (__fini_array_end, .)
+
+.flashtext
+ *(.flashtext .flashtext.*)
+
+.text           0x0800027c      0xe30
+ *(.text .text.*)
+ .text.SystemInit
+                0x0800027c       0xf4 system/system_stm32f10x.o
+                0x0800027c                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08000370       0x5c system/system_stm32f10x.o
+                0x08000370                SystemCoreClockUpdate
+ .text.__initialize_hardware_early
+                0x080003cc       0x18 system/_initialize_hardware.o
+                0x080003cc                __initialize_hardware_early
+ .text.__initialize_hardware
+                0x080003e4        0x4 system/_initialize_hardware.o
+                0x080003e4                __initialize_hardware
+ .text.__initialize_args
+                0x080003e8       0x10 system/_syscalls.o
+                0x080003e8                __initialize_args
+ .text._exit    0x080003f8        0x6 system/_exit.o
+                0x080003f8                _exit
+ *fill*         0x080003fe        0x2 
+ .text.__reset_hardware
+                0x08000400       0x24 system/_reset_hardware.o
+                0x08000400                __reset_hardware
+ .text._ZN6QueuerC2Ev
+                0x08000424        0x6 lamos/queue.o
+                0x08000424                Queuer::Queuer()
+                0x08000424                Queuer::Queuer()
+ .text._ZN5QueueC2Ev
+                0x0800042a        0x8 lamos/queue.o
+                0x0800042a                Queue::Queue()
+                0x0800042a                Queue::Queue()
+ .text._ZN5Queue4pushER6Queuer
+                0x08000432       0x1e lamos/queue.o
+                0x08000432                Queue::push(Queuer&)
+ .text._ZN5Queue6appendER6Queuer
+                0x08000450       0x14 lamos/queue.o
+                0x08000450                Queue::append(Queuer&)
+ .text._ZN5Queue3popEv
+                0x08000464       0x20 lamos/queue.o
+                0x08000464                Queue::pop()
+ .text._ZN5Queue7getNextEP6Queuer
+                0x08000484       0x16 lamos/queue.o
+                0x08000484                Queue::getNext(Queuer*)
+ *fill*         0x0800049a        0x2 
+ .text._ZN12_GLOBAL__N_16KQueue6appendER7Service
+                0x0800049c       0x30 lamos/kernel.o
+ .text._ZN7ServiceC2EPFvRS_E
+                0x080004cc       0x10 lamos/kernel.o
+                0x080004cc                Service::Service(void (*)(Service&))
+                0x080004cc                Service::Service(void (*)(Service&))
+ .text._ZN7Service6appendEv
+                0x080004dc        0xc lamos/kernel.o
+                0x080004dc                Service::append()
+ .text._ZN7Service6appendEi
+                0x080004e8        0xc lamos/kernel.o
+                0x080004e8                Service::append(int)
+ .text.PendSV_Handler
+                0x080004f4       0x38 lamos/kernel.o
+                0x080004f4                PendSV_Handler
+ .text.SVC_Handler
+                0x0800052c       0x10 lamos/kernel.o
+                0x0800052c                SVC_Handler
+ .text.startup._GLOBAL__sub_I__ZN7ServiceC2EPFvRS_E
+                0x0800053c       0x30 lamos/kernel.o
+ .text._Z9nextTimerR7Service
+                0x0800056c       0x38 lamos/timer.o
+                0x0800056c                nextTimer(Service&)
+ .text._ZZN12_GLOBAL__N_111constructorEvENUlR7ServiceE_4_FUNES1_
+                0x080005a4       0x18 lamos/timer.o
+ .text._ZN5TimerC2EjPFjvE
+                0x080005bc       0x20 lamos/timer.o
+                0x080005bc                Timer::Timer(unsigned int, unsigned int (*)())
+                0x080005bc                Timer::Timer(unsigned int, unsigned int (*)())
+ .text._ZN4user4waitEj
+                0x080005dc       0x14 lamos/timer.o
+                0x080005dc                user::wait(unsigned int)
+ .text.SysTick_Handler
+                0x080005f0        0xc lamos/timer.o
+                0x080005f0                SysTick_Handler
+ .text.startup._GLOBAL__sub_I__Z9nextTimerR7Service
+                0x080005fc       0x74 lamos/timer.o
+ .text._ZZN12_GLOBAL__N_111constructorEvENUlR7ServiceE_4_FUNES1_
+                0x08000670       0x64 wheel.o
+ .text._Z5wheel10wheel_mode
+                0x080006d4       0x64 wheel.o
+                0x080006d4                wheel(wheel_mode)
+ .text.TIM3_IRQHandler
+                0x08000738       0x58 wheel.o
+                0x08000738                TIM3_IRQHandler
+ .text.SPI2_IRQHandler
+                0x08000790       0x54 wheel.o
+                0x08000790                SPI2_IRQHandler
+ .text._GLOBAL__sub_I__Z5wheel10wheel_mode
+                0x080007e4      0x120 wheel.o
+ .text._ZZN12_GLOBAL__N_111constructorEvENUlR7ServiceE_4_FUNES1_
+                0x08000904       0x84 usart1.o
+ .text.USART1_IRQHandler
+                0x08000988       0x1c usart1.o
+                0x08000988                USART1_IRQHandler
+ .text._Z9usart1_txPcj
+                0x080009a4       0x44 usart1.o
+                0x080009a4                usart1_tx(char*, unsigned int)
+ .text._GLOBAL__sub_I_USART1_IRQHandler
+                0x080009e8       0x60 usart1.o
+ .text._ZNUlvE_4_FUNEv
+                0x08000a48       0x14 pid.o
+ .text._Z5wheelR12wheel_struct
+                0x08000a5c      0x108 pid.o
+                0x08000a5c                wheel(wheel_struct&)
+ .text._GLOBAL__sub_I__Z5wheelR12wheel_struct
+                0x08000b64       0x50 pid.o
+ .text.main     0x08000bb4       0x20 main.o
+                0x08000bb4                main
+ .text._Z14on_button_downv
+                0x08000bd4       0x20 main.o
+                0x08000bd4                on_button_down()
+ .text._Z14usart1_receivec
+                0x08000bf4       0x8c main.o
+                0x08000bf4                usart1_receive(char)
+ .text.f        0x08000c80        0x4 led.o
+                0x08000c80                f
+                0x08000c80                on_button_up()
+ .text._ZZN12_GLOBAL__N_111constructorEvENUlvE_4_FUNEv
+                0x08000c84       0x30 led.o
+ .text._Z6led_onv
+                0x08000cb4       0x10 led.o
+                0x08000cb4                led_on()
+ .text._Z10led_togglev
+                0x08000cc4       0x1c led.o
+                0x08000cc4                led_toggle()
+ .text._GLOBAL__sub_I_f
+                0x08000ce0       0x44 led.o
+ .text._ZZN12_GLOBAL__N_111constructorEvENUlR7ServiceE_4_FUNES1_
+                0x08000d24       0x18 _i2cm.o
+ .text._ZN12_GLOBAL__N_13ev8Ei
+                0x08000d3c       0x8c _i2cm.o
+ .text._ZN12_GLOBAL__N_13ev6Ei
+                0x08000dc8       0xb0 _i2cm.o
+ .text._ZN12_GLOBAL__N_13ev5Ei
+                0x08000e78       0x40 _i2cm.o
+ .text._ZN12_GLOBAL__N_13ev7Ei
+                0x08000eb8       0xb8 _i2cm.o
+ .text._Z10i2cm_writeciPc
+                0x08000f70       0x4c _i2cm.o
+                0x08000f70                i2cm_write(char, int, char*)
+ .text._ZN4user9i2cmWriteEciPc
+                0x08000fbc       0x3c _i2cm.o
+                0x08000fbc                user::i2cmWrite(char, int, char*)
+ .text.I2C2_EV_IRQHandler
+                0x08000ff8       0x18 _i2cm.o
+                0x08000ff8                I2C2_EV_IRQHandler
+ .text.I2C2_ER_IRQHandler
+                0x08001010       0x3c _i2cm.o
+                0x08001010                I2C2_ER_IRQHandler
+ .text._GLOBAL__sub_I__Z10i2cm_writeciPc
+                0x0800104c       0x60 _i2cm.o
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *(vtable)
+ *(.eh_frame*)
+ *(.glue_7)
+ .glue_7        0x080010ac        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080010ac        0x0 linker stubs
+
+.vfp11_veneer   0x080010ac        0x0
+ .vfp11_veneer  0x080010ac        0x0 linker stubs
+
+.v4_bx          0x080010ac        0x0
+ .v4_bx         0x080010ac        0x0 linker stubs
+
+.iplt           0x080010ac        0x0
+ .iplt          0x080010ac        0x0 system/_cxx.o
+
+.rel.dyn        0x080010ac        0x0
+ .rel.iplt      0x080010ac        0x0 system/_cxx.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080010ac                . = ALIGN (0x4)
+                0x080010ac                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x080010ac                __exidx_end = .
+                0x080010ac                . = ALIGN (0x4)
+                0x080010ac                _etext = .
+                0x080010ac                __etext = .
+
+.data_CCMRAM    0x00000000        0x0 load address 0x080010ac
+ FILL mask 0xff
+ *(.data.CCMRAM .data.CCMRAM.*)
+                0x00000000                . = ALIGN (0x4)
+                0x080010ac                _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x28 load address 0x080010ac
+ FILL mask 0xff
+                0x20000000                _sdata = .
+                0x20000000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ .data.AHBPrescTable
+                0x20000000       0x10 system/system_stm32f10x.o
+                0x20000000                AHBPrescTable
+ .data.SystemCoreClock
+                0x20000010        0x4 system/system_stm32f10x.o
+                0x20000010                SystemCoreClock
+ .data.argv.4282
+                0x20000014        0x8 system/_syscalls.o
+ .data._ZN12_GLOBAL__N_14modeE
+                0x2000001c        0x1 wheel.o
+ *fill*         0x2000001d        0x3 ff
+ .data.x        0x20000020        0x4 main.o
+                0x20000020                x
+ .data.one      0x20000024        0x4 main.o
+                0x20000024                one
+ *(.data_end .data_end.*)
+                0x20000028                . = ALIGN (0x4)
+                0x20000028                _edata = .
+                0x20000028                __data_end__ = .
+
+.igot.plt       0x20000028        0x0 load address 0x080010d4
+ .igot.plt      0x20000028        0x0 system/_cxx.o
+
+.bss_CCMRAM     0x00000000        0x0
+ *(.bss.CCMRAM .bss.CCMRAM.*)
+
+.bss            0x20000028       0xf4
+                0x20000028                __bss_start__ = .
+                0x20000028                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.name.4281
+                0x20000028        0x1 system/_syscalls.o
+ *fill*         0x20000029        0x3 
+ .bss._ZN12_GLOBAL__N_16kQueueE
+                0x2000002c        0xc lamos/kernel.o
+ .bss._ZN12_GLOBAL__N_16KQueue7poppingE
+                0x20000038        0x4 lamos/kernel.o
+ .bss._ZN12_GLOBAL__N_17serviceE
+                0x2000003c        0x8 lamos/kernel.o
+ .bss._ZN12_GLOBAL__N_17iQueue0E
+                0x20000044        0xc lamos/kernel.o
+ .bss._ZN12_GLOBAL__N_15timerE
+                0x20000050        0x8 lamos/timer.o
+ .bss._ZN12_GLOBAL__N_17systickE
+                0x20000058        0x8 lamos/timer.o
+ .bss._ZN12_GLOBAL__N_14tickE
+                0x20000060        0x4 lamos/timer.o
+ .bss._ZN12_GLOBAL__N_15queueE
+                0x20000064        0x8 lamos/timer.o
+ .bss._ZZ9nextTimerR7ServiceE1t
+                0x2000006c        0x4 lamos/timer.o
+ .bss._ZN12_GLOBAL__N_17currentE
+                0x20000070        0x4 wheel.o
+ .bss._ZN12_GLOBAL__N_16_wheelE
+                0x20000074        0x8 wheel.o
+ .bss._ZN12_GLOBAL__N_14lastE
+                0x2000007c        0x4 wheel.o
+ .bss._ZN12_GLOBAL__N_13valE
+                0x20000080        0x8 wheel.o
+ .bss._ZN12_GLOBAL__N_15countE
+                0x20000088        0x4 usart1.o
+ .bss._ZN12_GLOBAL__N_16stringE
+                0x2000008c        0x4 usart1.o
+ .bss._ZN12_GLOBAL__N_14uartE
+                0x20000090        0x8 usart1.o
+ .bss._ZN12_GLOBAL__N_19pid_trackE
+                0x20000098       0x18 pid.o
+ .bss._ZN12_GLOBAL__N_19pid_speedE
+                0x200000b0       0x18 pid.o
+ .bss._ZN12_GLOBAL__N_15rightE
+                0x200000c8        0x4 pid.o
+ .bss._ZN12_GLOBAL__N_11sE
+                0x200000cc        0x4 pid.o
+ .bss.display   0x200000d0        0xc pid.o
+                0x200000d0                display
+ .bss._ZN12_GLOBAL__N_14leftE
+                0x200000dc        0x4 pid.o
+ .bss.zero      0x200000e0        0x4 main.o
+                0x200000e0                zero
+ .bss.b         0x200000e4        0x2 main.o
+                0x200000e4                b
+ *fill*         0x200000e6        0x2 
+ .bss._ZN12_GLOBAL__N_16buttonE
+                0x200000e8        0xc led.o
+ .bss._ZN12_GLOBAL__N_14lastE
+                0x200000f4        0x4 led.o
+ .bss._ZN12_GLOBAL__N_15countE
+                0x200000f8        0x4 _i2cm.o
+ .bss._ZN12_GLOBAL__N_16bufferE
+                0x200000fc        0x4 _i2cm.o
+ .bss._ZN12_GLOBAL__N_18read_bufE
+                0x20000100        0x4 _i2cm.o
+ .bss._ZN12_GLOBAL__N_18callbackE
+                0x20000104        0x4 _i2cm.o
+ .bss._ZN12_GLOBAL__N_17addressE
+                0x20000108        0x1 _i2cm.o
+ *fill*         0x20000109        0x3 
+ .bss._ZN12_GLOBAL__N_16masterE
+                0x2000010c        0x8 _i2cm.o
+ .bss._ZN12_GLOBAL__N_18read_cntE
+                0x20000114        0x4 _i2cm.o
+ .bss._ZN12_GLOBAL__N_15stateE
+                0x20000118        0x4 _i2cm.o
+ *(COMMON)
+ *(.bss_end .bss_end.*)
+                0x2000011c                . = ALIGN (0x4)
+                0x2000011c                __bss_end__ = .
+                0x2000011c                _ebss = .
+
+.noinit_CCMRAM
+ *(.noinit.CCMRAM .noinit.CCMRAM.*)
+
+.noinit         0x2000011c        0x0
+                0x2000011c                _noinit = .
+ *(.noinit .noinit.*)
+                0x2000011c                . = ALIGN (0x4)
+                0x2000011c                _end_noinit = .
+                [!provide]                PROVIDE (end, _end_noinit)
+                [!provide]                PROVIDE (_end, _end_noinit)
+                [!provide]                PROVIDE (__end, _end_noinit)
+                [!provide]                PROVIDE (__end__, _end_noinit)
+
+._check_stack   0x2000011c      0x100
+                0x2000021c                . = (. + _Minimum_Stack_Size)
+ *fill*         0x2000011c      0x100 
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata.*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata.*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata.*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata.*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata.*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2b
+ *(.comment)
+ .comment       0x00000000       0x2b system/exception_handlers.o
+                                 0x2c (size before relaxing)
+ .comment       0x0000002b       0x2c system/system_stm32f10x.o
+ .comment       0x0000002b       0x2c system/_startup.o
+ .comment       0x0000002b       0x2c system/_initialize_hardware.o
+ .comment       0x0000002b       0x2c system/_syscalls.o
+ .comment       0x0000002b       0x2c system/vectors_stm32f10x.o
+ .comment       0x0000002b       0x2c system/_exit.o
+ .comment       0x0000002b       0x2c system/_reset_hardware.o
+ .comment       0x0000002b       0x2c lamos/queue.o
+ .comment       0x0000002b       0x2c lamos/kernel.o
+ .comment       0x0000002b       0x2c lamos/timer.o
+ .comment       0x0000002b       0x2c wheel.o
+ .comment       0x0000002b       0x2c usart1.o
+ .comment       0x0000002b       0x2c pid.o
+ .comment       0x0000002b       0x2c main.o
+ .comment       0x0000002b       0x2c led.o
+ .comment       0x0000002b       0x2c _i2cm.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 system/exception_handlers.o
+ .ARM.attributes
+                0x00000033       0x33 system/system_stm32f10x.o
+ .ARM.attributes
+                0x00000066       0x33 system/_startup.o
+ .ARM.attributes
+                0x00000099       0x33 system/_initialize_hardware.o
+ .ARM.attributes
+                0x000000cc       0x33 system/_syscalls.o
+ .ARM.attributes
+                0x000000ff       0x33 system/vectors_stm32f10x.o
+ .ARM.attributes
+                0x00000132       0x33 system/_exit.o
+ .ARM.attributes
+                0x00000165       0x33 system/_reset_hardware.o
+ .ARM.attributes
+                0x00000198       0x33 lamos/queue.o
+ .ARM.attributes
+                0x000001cb       0x33 lamos/kernel.o
+ .ARM.attributes
+                0x000001fe       0x33 lamos/timer.o
+ .ARM.attributes
+                0x00000231       0x33 wheel.o
+ .ARM.attributes
+                0x00000264       0x33 usart1.o
+ .ARM.attributes
+                0x00000297       0x33 pid.o
+ .ARM.attributes
+                0x000002ca       0x33 main.o
+ .ARM.attributes
+                0x000002fd       0x33 led.o
+ .ARM.attributes
+                0x00000330       0x33 _i2cm.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(out.elf elf32-littlearm)
