@@ -15,7 +15,7 @@ Put SD card to raspberry pi zero and boot.
 ## SSH to raspberry pi
 launch command prompt\
 enter "ping -4 19xxxxxxd.local" to check ip address (Bonjour Print Service)\
-SSH via putty or otherwise.
+SSH via putty or otherwise. (ssh pi@19xxxxxxd.local) (pwd = raspberry)
 
 ![image](DSC_0008.JPG)
 [![](https://img.youtube.com/vi/ckLhx3viHC8/0.jpg)](https://youtu.be/ckLhx3viHC8)
