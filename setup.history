@@ -1,0 +1,137 @@
+    1  sudo rasp-config
+    2  sudo raspi-config
+    3  passwd
+    4  sudo shutdown now
+    5  df -h
+    6  sudo apt-get update
+    7  sudo apt-get upgrade
+    8  sudo apt-get dist-upgrade
+    9  sudo apt-get install g++
+   10  sudo apt-get install m4
+   11  export TARGET=mips-none-elf
+   12  export PREFIX=/usr/local
+   13  wget http://ftp.gnu.org/gnu/binutils/binutils-2.27.tar.gz
+   14  tar zxf binutils-2.27.tar.gz 
+   15  cd binutils-2.27/
+   16  mkdir build
+   17  cd build
+   18  ../configure --target=$TARGET --prefix=$PREFIX
+   19* make al
+   20  sudo make install
+   21  cd ~
+   22  ls
+   23  rm -rf b*
+   24  ls
+   25  wget http://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.gz
+   26  tar zxf gmp-5.1.3.tar.gz 
+   27  cd gmp-5.1.3/
+   28  mkdir build
+   29  cd build
+   30  ../configure
+   31  make all
+   32  sudo make install
+   33  cd ~
+   34  rm -rf g*
+   35  wget http://ftp.gnu.org/gnu/mpfr/mpfr-3.1.5.tar.gz
+   36  tar zxf mpfr-3.1.5.tar.gz 
+   37  cd mpfr-3.1.5/
+   38  mkdir build
+   39  cd build/
+   40  ../configure
+   41  make all
+   42  sudo make install
+   43  cd ~
+   44  rm -rf m*
+   45  wget http://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz
+   46  tar zxf mpc-1.0.3.tar.gz 
+   47  cd mpc-1.0.3/
+   48  mkdir build
+   49  cd build
+   50  ../configure
+   51  make all
+   52  sudo make install
+   53  cd ~
+   54  rm -rf m*
+   55  ls
+   56  wget http://ftp.gnu.org/gnu/gcc/gcc-6.1.0/gcc-6.1.0.tar.gz
+   57  tar zxf gcc-6.1.0.tar.gz 
+   58  cd gcc-6.1.0/
+   59  mkdir build
+   60  cd build/
+   61  ../configure --target=$TARGET --prefix=$PREFIX --enable-languages=c --without-headers --with-newlib --with-gnu-as --with-gnu-ld --disable-libssp
+   62  make all-gcc
+   63  sudo make install
+   64  cd ~
+   65  wget ftp://sourceware.org/pub/newlib/newlib-2.5.0.20170421.tar.gz
+   66  tar zxf newlib-2.5.0.20170421.tar.gz 
+   67  cd newlib-2.5.0.20170421/
+   68  mkdir build
+   69  ../configure --target=$TARGET --prefix=$PREFIX --disable-newlib-supplied-syscalls --disable-libgloss --disable-nls
+   70  cd build/
+   71  ../configure --target=$TARGET --prefix=$PREFIX --disable-newlib-supplied-syscalls --disable-libgloss --disable-nls
+   72  make all
+   73  sudo make install
+   74  cd ~
+   75  rm -rf ne*
+   76  cd gcc-6.1.0/build/
+   77  ../configure --target=$TARGET --prefix=$PREFIX --enable-languages=c,c++ --with-newlib --with-gnu-as --with-gnu-ld --disable-shared --disable-libssp --enable-threads=no
+   78  make all
+   79  sudo make install
+   80  sudo apt-get install libusb-dev
+   81  cd ~
+   82  ls
+   83  rm -rf gc*
+   84  df -h
+   85  wget https://github.com/john1117/mphidflash/archive/master.zip
+   86  unzip master.zip 
+   87  cd mphidflash-master/
+   88  ls
+   89  make mphidflasharm
+   90  sudo make installarm
+   91  cd ~
+   92  rm -rf mp*
+   93  ls
+   94  rm master.zip 
+   95  sudo vi /etc/udev/rules.d/99-pic32.rules
+   96  sudo apt-get install minicom
+   97  sudo minicom
+   98  sudo minicom -s
+   99  sudo apt-get install build-essential cmake pkg-config
+  100  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+  101  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+  102  sudo apt-get install libxvidcore-dev libx264-dev
+  103  sudo apt-get install libgtk2.0-dev
+  104  sudo apt-get install libatlas-base-dev gfortran
+  105  ls
+  106  wget https://github.com/opencv/opencv/archive/master.zip
+  107  unzip master.zip 
+  108  ls
+  109  cd opencv-master/
+  110  ls
+  111  vi README.md 
+  112  cd include/
+  113  ls
+  114  cd opencv2
+  115  ls
+  116  vi opencv.hpp 
+  117  cd ~
+  118  ls
+  119  rm master.zip 
+  120  wget https://github.com/opencv/opencv_contrib/archive/master.zip
+  121  ls
+  122  unzip master.zip 
+  123  ls
+  124  rm master.zip 
+  125  cd opencv_contrib-master/
+  126  ls
+  127  cd ~
+  128  cd opencv-master/
+  129  mkdir build
+  130  cd build
+  131  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-master/modules ..
+  132  make -j4
+  133  sudo make install
+  134  cd ~
+  135  ls
+  136  rm -rf op*
+  137  history > setup.history

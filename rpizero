@@ -1,0 +1,85 @@
+umount /dev/sdc1
+sudo dd if=2019-04-08-raspbian-stretch-full.img | pv -s 2G | sudo dd of=/dev/sdc bs=4096
+sudo sync
+touch /media/ensylam/boot/ssh
+echo -e "\ndtoverlay=dwc2" >> /media/sylam/boot/config.txt
+vi /media/ensylam/boot/cmdline.txt # insert 'modules-load=dwc2,g_ether' behind 'rootwait'
+USB Ethernet: IPv4 - Link Local only; IPv6 - disable
+ssh-keygen -R raspberrypi.local
+ssh pi@raspberrypi.local
+
+ip addr flush dev <interface 1>
+ip addr flush dev <interface 2>
+brctl addbr <bridge name>
+brctl addif <bridge name> <interface 1> <interface 2>
+ip link set dev <bridge name> up
+
+sudo ip addr flush dev enp0s29f7u2u1
+sudo ip addr flush dev ens34
+sudo brctl addbr br0
+sudo brctl addif br0 enp0s29f7u2u1 ens34
+sudo ip link set dev br0 up
+sudo dhclient br0
+
+sudo apt-get update
+
+sudo apt-get install i2c-tools
+sudo raspi-config (enable i2c)
+
+git clone https://git.code.sf.net/p/stm32flash/code stm32flash-code
+cd stm32flash-code
+sudo make install
+cd ~
+
+sudo vi /boot/config.txt # append "dtoverlay=pi3-miniuart-bt"
+remove "console=serial0,115200" from /boot/cmdline.txt
+
+sudo apt-get install gcc-arm-none-eabi
+sudo apt-get install gcc-avr binutils-avr avr-libc
+
+git clone https://github.com/mraardvark/pyupdi.git
+
+add the followings to /usr/lib/avr/include/avr/io.h at line 612
+#elif defined (__AVR_ATtiny414__)
+#  include <avr/iotn414.h>
+
+sudo mv iotn414.h /usr/lib/avr/include/avr/
+sudo mv crtattiny414.o /usr/lib/gcc/avr/5.4.0/avrxmega3/short-calls/
+sudo mv libattiny414.a /usr/lib/gcc/avr/5.4.0/avrxmega3/short-calls/
+sudo mv libc.a /usr/lib/gcc/avr/5.4.0/avrxmega3/short-calls/
+sudo mv libm.a /usr/lib/gcc/avr/5.4.0/avrxmega3/short-calls/
+
+sudo dd if=/dev/sdc | pv -s 2G | dd of=rpizero.img
+
+
+/////////// mount img
+fdisk -l test.img
+mkdir mnt
+sudo mount -o loop,offset=4194304 test.img mnt
+sudo mount -o loop,offset=50331648 test.img mnt
+sudo umount mnt
+
+
+Edit /etc/ssh/sshd_config and add this to the end
+IPQoS cs0 cs0
+Also change it in /etc/ssh/ssh_config
+
+/////try again
+1. download raspian image.(2020-02-13-raspbian-buster.img)
+2. fdisk -l 2020-02-13-raspbian-buster.img
+
+Disk 2020-02-13-raspbian-buster.img: 3.5 GiB, 3787456512 bytes, 7397376 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xea7d04d6
+
+Device                          Boot  Start     End Sectors  Size Id Type
+2020-02-13-raspbian-buster.img1        8192  532479  524288  256M  c W95 FAT32 (
+2020-02-13-raspbian-buster.img2      532480 7397375 6864896  3.3G 83 Linux
+
+3. sudo mount -o loop,offset=4194304 2020-02-13-raspbian-buster.img mnt
+4. cd mnt
+5. sudo touch ssh
+
